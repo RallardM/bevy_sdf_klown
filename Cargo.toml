@@ -14,7 +14,7 @@ categories = ["graphics", "rendering", "games"]
 skein = []
 
 [dependencies]
-bevy = { version = "0.18.0-rc.2", default-features = false, features = [
+bevy = { path = "../bevy/", default-features = false, features = [
     "bevy_asset",
     "zstd_rust",
     "bevy_color",
