@@ -58,6 +58,7 @@ impl Plugin for RayMarchEnginePlugin {
             app,
             RAY_MARCH_COMPUTE_PASS_HANDLE,
             "../shaders/ray_march.wgsl",
+            // "../shaders/panmetheria/ray_march.wgsl",
             Shader::from_wgsl
         );
 
