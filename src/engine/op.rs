@@ -1,3 +1,4 @@
+// vendor\bevy_sdf_klown\src\engine\op.rs
 use crate::engine::hierarchy::SdOperatedBy;
 use bevy::ecs::lifecycle::HookContext;
 use bevy::ecs::world::DeferredWorld;

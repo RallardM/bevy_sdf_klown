@@ -1,3 +1,4 @@
+// vendor\bevy_sdf_klown\src\shaders\selectors.wgsl
 #define_import_path bevy_sdf::selectors
 
 #import bevy_sdf::bindings::{

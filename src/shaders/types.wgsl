@@ -1,3 +1,4 @@
+// vendor\bevy_sdf_klown\src\shaders\types.wgsl
 #define_import_path bevy_sdf::types
 
 struct SdObject {

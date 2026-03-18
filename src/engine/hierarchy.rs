@@ -1,3 +1,4 @@
+// vendor\bevy_sdf_klown\src\engine\hierarchy.rs
 use bevy::{prelude::*, render::extract_component::ExtractComponent};
 
 #[cfg(feature = "skein")]

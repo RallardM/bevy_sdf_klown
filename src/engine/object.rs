@@ -1,3 +1,4 @@
+// vendor\bevy_sdf_klown\src\engine\object.rs
 use bevy::math::VectorSpace;
 use bevy::prelude::*;
 use bevy::render::render_resource::ShaderType;
