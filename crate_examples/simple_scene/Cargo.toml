@@ -6,6 +6,7 @@ edition = "2024"
 skein = []
 
 [dependencies]
+# bevy = { path = "../../vendor/bevy", default-features = false, features = [
 bevy = { version = "0.18.0", default-features = false, features = [
     "bevy_asset",
     "zstd_rust",
@@ -31,7 +32,10 @@ bevy = { version = "0.18.0", default-features = false, features = [
     "wayland"
 ]}
 bevy_sdf_klown = { path = "../../"}
-bevy_egui = "0.38"
-bevy-inspector-egui = "0.35"
+
+# bevy_egui = {path = "vendor/bevy_egui"}
+bevy_egui = { version = "0.39.1" }
+# bevy-inspector-egui = { path = "vendor/bevy_inspector_egui" }
+bevy-inspector-egui = "0.35.0"
 
 
